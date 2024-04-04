@@ -2,9 +2,9 @@
   "name": "food_api_ci",
   "version": "1.0.0",
   "description": "API backend usando Json-server",
-  "main": "index.js", 
+  "main": "index.js",
   "scripts": {
-    "test": "node server.js & ./postman-ci.sh && pkill node" 
+    "test": "node server.js & ./postman-ci.sh && pkill node"
   },
   "keywords": [
     "CI",
@@ -15,6 +15,7 @@
   "author": "Anne Rocha",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "newman": "^6.1.2"
   }
 }
