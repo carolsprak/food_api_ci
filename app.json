@@ -1,0 +1,21 @@
+{
+    "name": "Food API CI",
+    "description": "Backend para cardápio de um restaurante",
+    "repository": "https://github.com/carolsprak/food_api_ci.git",
+    "keywords": ["API", "Food"],
+    "scripts": {
+      "postdeploy": "npm install && node server.js"
+    },
+    "env": {
+      "production": {
+        "description": "Ambiente de produção da API",
+        "value": "production"
+      }
+    }, 
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "Standard-1X"
+      }
+    }
+  }
