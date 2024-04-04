@@ -12,6 +12,20 @@
       "vegetarian": true,
       "price": 17,
       "image": "https://i.imgur.com/8B8YLOo.jpg"
+    }, 
+    {
+      "id": 1,
+      "name": "Pepperoni",
+      "description": "",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "double pepperoni"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 20,
+      "image": "https://i.imgur.com/OHHctnf.jpg"
     },
     {
       "id": 2,
