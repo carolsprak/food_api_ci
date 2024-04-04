@@ -15,7 +15,6 @@
   "author": "Anne Rocha",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0",
-    "newman": "^6.1.2"
+    "json-server": "^0.17.0"
   }
 }
