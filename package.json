@@ -4,7 +4,7 @@
   "description": "API backend usando Json-server",
   "main": "index.js",
   "scripts": {
-    "test": "node server.js & ./postman-ci.sh" 
+    "test": "node server.js & ./postman-ci.sh && pkill node" 
   },
   "keywords": [
     "CI",

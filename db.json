@@ -14,19 +14,6 @@
       "image": "https://i.imgur.com/8B8YLOo.jpg"
     },
     {
-      "id": 1,
-      "name": "Portuguesa",
-      "description": "",
-      "ingredients": [
-        "tomato sauce",
-        "mozzarella"
-      ],
-      "spicy": false,
-      "vegetarian": true,
-      "price": 17,
-      "image": "https://i.imgur.com/8B8YLOo.jpg"
-    },
-    {
       "id": 2,
       "name": "Rome",
       "description": "",
@@ -317,61 +304,6 @@
       "vegetarian": false,
       "price": 28.5,
       "image": "https://i.imgur.com/cYpO8RT.png"
-    },
-    {
-      "name": "Quatro queijos",
-      "description": "",
-      "ingredients": [
-        "tomato sauce",
-        "mozzarella"
-      ],
-      "spicy": false,
-      "vegetarian": true,
-      "price": 28,
-      "image": "https://i.imgur.com/8B8YLOo.jpg",
-      "id": 19
-    },
-    {
-      "name": "Portuguesa",
-      "description": "",
-      "ingredients": [
-        "tomato sauce",
-        "mozzarella",
-        "eggs"
-      ],
-      "spicy": false,
-      "vegetarian": true,
-      "price": 19,
-      "image": "https://i.imgur.com/8B8YLOo.jpg",
-      "id": 21
-    },
-    {
-      "name": "Portuguesa",
-      "description": "",
-      "ingredients": [
-        "tomato sauce",
-        "mozzarella",
-        "eggs"
-      ],
-      "spicy": false,
-      "vegetarian": true,
-      "price": 19,
-      "image": "https://i.imgur.com/8B8YLOo.jpg",
-      "id": 22
-    },
-    {
-      "name": "Portuguesa",
-      "description": "",
-      "ingredients": [
-        "tomato sauce",
-        "mozzarella",
-        "eggs"
-      ],
-      "spicy": false,
-      "vegetarian": true,
-      "price": 19,
-      "image": "https://i.imgur.com/8B8YLOo.jpg",
-      "id": 23
     }
   ],
   "pasta": [
