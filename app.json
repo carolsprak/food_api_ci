@@ -4,18 +4,29 @@
     "repository": "https://github.com/carolsprak/food_api_ci.git",
     "keywords": ["API", "Food"],
     "scripts": {
-      "postdeploy": "npm install && node server.js"
+      "postdeploy": "curl -o- 'https://dl-cli.pstmn.io/install/linux64.sh' | sh && npm install && node server.js"
     },
     "env": {
-      "production": {
+      "NODE_ENV": {
         "description": "Ambiente de produção da API",
-        "value": "production"
+        "value": "test"
+      },
+      "API_KEY": {
+        "description": "Chave da API",
+        "value": "${{ secrets.API_KEY }}"
       }
-    }, 
+    },
     "formation": {
       "web": {
         "quantity": 1,
         "size": "Standard-1X"
       }
+    },
+    "environments": {
+      "test": {
+        "scripts": {
+          "postdeploy": "npm install --production=false && NODE_ENV=test npm install"
+        }
+      }
     }
-  }
+} 
