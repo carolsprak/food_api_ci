@@ -1,0 +1,19 @@
+{
+  "name": "food_api_ci",
+  "version": "1.0.0",
+  "description": "API backend usando Json-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js & ./postman-ci.sh" 
+  },
+  "keywords": [
+    "CI",
+    "API",
+    "Test"
+  ],
+  "author": "Anne Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
