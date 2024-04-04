@@ -14,6 +14,19 @@
       "image": "https://i.imgur.com/8B8YLOo.jpg"
     },
     {
+      "id": 1,
+      "name": "Portuguesa",
+      "description": "",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella"
+      ],
+      "spicy": false,
+      "vegetarian": true,
+      "price": 17,
+      "image": "https://i.imgur.com/8B8YLOo.jpg"
+    },
+    {
       "id": 2,
       "name": "Rome",
       "description": "",
