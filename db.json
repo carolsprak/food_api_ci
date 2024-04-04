@@ -1,4 +1,4 @@
-{
+{"cardapio": [ {
   "pizza": [
     {
       "id": 0,
@@ -617,4 +617,5 @@
       "image": "https://i.imgur.com/HNX30U9.png"
     }
   ]
+}]
 }
